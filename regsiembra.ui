@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegSiembra</class>
+ <widget class="QMainWindow" name="RegSiembra">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>723</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QLabel" name="lVariedad">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Variedad</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lMalezas">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Malezas presentes</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lComentarios">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Comentarios</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lGrano">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Grano</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lFecha">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fecha</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lFertilizante">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fertilizante </string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="pbAgregar">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Agregar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Seleccione Un Campo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QListWidget" name="lwCampos"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>723</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

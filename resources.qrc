@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icons/register.png</file>
+        <file>resources/icons/view.png</file>
+        <file>resources/icons/agro.png</file>
+        <file>resources/databases/campos.sqlite</file>
+    </qresource>
+</RCC>

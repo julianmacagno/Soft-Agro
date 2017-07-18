@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegCosecha</class>
+ <widget class="QMainWindow" name="RegCosecha">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="4" column="0">
+     <widget class="QLabel" name="lRinde">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Rinde</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lHumedad">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Humedad</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lComentarios">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Comentarios</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lFecha">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fecha</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="leRinde">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="leHumedad">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lDanio">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Daño</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="leDanio">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="leComentarios">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="pbAgregar">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Agregar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="leFecha">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="lCampo">
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Seleccione Un Campo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QListWidget" name="lwCampos"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
