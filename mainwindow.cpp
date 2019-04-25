@@ -12,7 +12,8 @@ MainWindow::MainWindow(QWidget *parent) :    QMainWindow(parent),    ui(new Ui::
     connect(ui->pbRegCosechas,SIGNAL(pressed()),this,SLOT(slot_RegCosechas()));
     connect(ui->pbRegSiembras,SIGNAL(pressed()),this,SLOT(slot_RegSiembras()));
     connect(ui->pbRegPulverizaciones,SIGNAL(pressed()),this,SLOT(slot_RegPulverizaciones()));
-    connect(ui->pbVer,SIGNAL(pressed()),this,SLOT(slot_Ver()));
+    connect(ui->actionAcerca_de,SIGNAL(triggered(bool)),this,SLOT(slot_acercaDe()));
+    //connect(ui->pbVer,SIGNAL(pressed()),this,SLOT(slot_Ver()));
 }
 
 MainWindow::~MainWindow()
@@ -21,7 +22,7 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::configLayout()
-{
+{    
     int altura = this->height()/3;
 
     setWindowTitle("Soft-Agro");
@@ -39,7 +40,7 @@ void MainWindow::configLayout()
     ui->pbRegSiembras->setIcon(QIcon(":/resources/icons/register.png"));
     ui->pbRegSiembras->setIconSize(QSize(altura, altura));
 
-    ui->pbVer->setMinimumHeight(this->height()/3);
+    ui->pbVer->setMinimumHeight(altura);
     ui->pbVer->setIcon(QIcon(":/resources/icons/view.png"));
     ui->pbVer->setIconSize(QSize(altura, altura));
 }
@@ -80,7 +81,15 @@ void MainWindow::slot_RegPulverizaciones()
     ventPulverizacion->showMaximized();
 }
 
+//TODO
 void MainWindow::slot_Ver()
 {
+
+}
+
+//TODO - No muestra nada, buscar documentacion
+void MainWindow::slot_acercaDe()
+{
+    //QMessageBox about(QMessageBox::Information,"Acerca de..", "Desarrollador: Julian Macagno");
 
 }

@@ -27,12 +27,14 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     regcosecha.cpp \
     regsiembra.cpp \
-    regpulverizacion.cpp
+    regpulverizacion.cpp \
+    databaseadmin.cpp
 
 HEADERS  += mainwindow.h \
     regcosecha.h \
     regsiembra.h \
-    regpulverizacion.h
+    regpulverizacion.h \
+    databaseadmin.h
 
 FORMS    += mainwindow.ui \
     regcosecha.ui \
